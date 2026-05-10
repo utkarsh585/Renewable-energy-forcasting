@@ -1,0 +1,102 @@
+{
+  "forecast_horizon_hours": 1,
+  "regions": [
+    "rajasthan",
+    "tamil_nadu",
+    "odisha",
+    "maharashtra",
+    "himachal"
+  ],
+  "best_models": {
+    "rajasthan": {
+      "solar_power": {
+        "model": "XGBoost",
+        "metrics": {
+          "MAE": 1.8303,
+          "RMSE": 4.6267,
+          "R2": 0.9941
+        }
+      },
+      "wind_power": {
+        "model": "XGBoost",
+        "metrics": {
+          "MAE": 12.8785,
+          "RMSE": 29.5418,
+          "R2": 0.9718
+        }
+      }
+    },
+    "tamil_nadu": {
+      "solar_power": {
+        "model": "XGBoost",
+        "metrics": {
+          "MAE": 2.7046,
+          "RMSE": 5.9,
+          "R2": 0.9892
+        }
+      },
+      "wind_power": {
+        "model": "Random Forest",
+        "metrics": {
+          "MAE": 10.3861,
+          "RMSE": 21.0619,
+          "R2": 0.9834
+        }
+      }
+    },
+    "odisha": {
+      "solar_power": {
+        "model": "XGBoost",
+        "metrics": {
+          "MAE": 2.729,
+          "RMSE": 6.1935,
+          "R2": 0.9855
+        }
+      },
+      "wind_power": {
+        "model": "Random Forest",
+        "metrics": {
+          "MAE": 6.4991,
+          "RMSE": 14.666,
+          "R2": 0.9684
+        }
+      }
+    },
+    "maharashtra": {
+      "solar_power": {
+        "model": "XGBoost",
+        "metrics": {
+          "MAE": 2.3818,
+          "RMSE": 5.5722,
+          "R2": 0.9896
+        }
+      },
+      "wind_power": {
+        "model": "Random Forest",
+        "metrics": {
+          "MAE": 7.1375,
+          "RMSE": 16.1308,
+          "R2": 0.9598
+        }
+      }
+    },
+    "himachal": {
+      "solar_power": {
+        "model": "XGBoost",
+        "metrics": {
+          "MAE": 2.4072,
+          "RMSE": 5.4092,
+          "R2": 0.9893
+        }
+      },
+      "wind_power": {
+        "model": "Random Forest",
+        "metrics": {
+          "MAE": 7.1127,
+          "RMSE": 27.8201,
+          "R2": 0.9105
+        }
+      }
+    }
+  }
+}

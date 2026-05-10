@@ -1,0 +1,238 @@
+{
+  "generated_at_utc": "2026-04-26T05:29:46.756982+00:00",
+  "forecast_horizon_hours": 1,
+  "selection_policy": {
+    "primary_metric": "R2",
+    "tie_breakers": [
+      "RMSE",
+      "MAE"
+    ]
+  },
+  "api_supported_models": [
+    "Linear Regression",
+    "Random Forest",
+    "XGBoost"
+  ],
+  "regions": {
+    "rajasthan": {
+      "solar_power": {
+        "best_overall": {
+          "model": "XGBoost",
+          "metrics": {
+            "MAE": 1.8303,
+            "RMSE": 4.6267,
+            "R2": 0.9941
+          },
+          "artifact": "rajasthan_solar_power_xgb.pkl"
+        },
+        "best_api": {
+          "model": "XGBoost",
+          "metrics": {
+            "MAE": 1.8303,
+            "RMSE": 4.6267,
+            "R2": 0.9941
+          },
+          "artifact": "rajasthan_solar_power_xgb.pkl",
+          "artifact_path": "/home/runner/work/Renewable_Energy_Forecasting/Renewable_Energy_Forecasting/models/rajasthan_solar_power_xgb.pkl"
+        }
+      },
+      "wind_power": {
+        "best_overall": {
+          "model": "XGBoost",
+          "metrics": {
+            "MAE": 12.8785,
+            "RMSE": 29.5418,
+            "R2": 0.9718
+          },
+          "artifact": "rajasthan_wind_power_xgb.pkl"
+        },
+        "best_api": {
+          "model": "XGBoost",
+          "metrics": {
+            "MAE": 12.8785,
+            "RMSE": 29.5418,
+            "R2": 0.9718
+          },
+          "artifact": "rajasthan_wind_power_xgb.pkl",
+          "artifact_path": "/home/runner/work/Renewable_Energy_Forecasting/Renewable_Energy_Forecasting/models/rajasthan_wind_power_xgb.pkl"
+        }
+      }
+    },
+    "tamil_nadu": {
+      "solar_power": {
+        "best_overall": {
+          "model": "XGBoost",
+          "metrics": {
+            "MAE": 2.7046,
+            "RMSE": 5.9,
+            "R2": 0.9892
+          },
+          "artifact": "tamil_nadu_solar_power_xgb.pkl"
+        },
+        "best_api": {
+          "model": "XGBoost",
+          "metrics": {
+            "MAE": 2.7046,
+            "RMSE": 5.9,
+            "R2": 0.9892
+          },
+          "artifact": "tamil_nadu_solar_power_xgb.pkl",
+          "artifact_path": "/home/runner/work/Renewable_Energy_Forecasting/Renewable_Energy_Forecasting/models/tamil_nadu_solar_power_xgb.pkl"
+        }
+      },
+      "wind_power": {
+        "best_overall": {
+          "model": "Random Forest",
+          "metrics": {
+            "MAE": 10.3861,
+            "RMSE": 21.0619,
+            "R2": 0.9834
+          },
+          "artifact": "tamil_nadu_wind_power_rf.pkl"
+        },
+        "best_api": {
+          "model": "Random Forest",
+          "metrics": {
+            "MAE": 10.3861,
+            "RMSE": 21.0619,
+            "R2": 0.9834
+          },
+          "artifact": "tamil_nadu_wind_power_rf.pkl",
+          "artifact_path": "/home/runner/work/Renewable_Energy_Forecasting/Renewable_Energy_Forecasting/models/tamil_nadu_wind_power_rf.pkl"
+        }
+      }
+    },
+    "odisha": {
+      "solar_power": {
+        "best_overall": {
+          "model": "XGBoost",
+          "metrics": {
+            "MAE": 2.729,
+            "RMSE": 6.1935,
+            "R2": 0.9855
+          },
+          "artifact": "odisha_solar_power_xgb.pkl"
+        },
+        "best_api": {
+          "model": "XGBoost",
+          "metrics": {
+            "MAE": 2.729,
+            "RMSE": 6.1935,
+            "R2": 0.9855
+          },
+          "artifact": "odisha_solar_power_xgb.pkl",
+          "artifact_path": "/home/runner/work/Renewable_Energy_Forecasting/Renewable_Energy_Forecasting/models/odisha_solar_power_xgb.pkl"
+        }
+      },
+      "wind_power": {
+        "best_overall": {
+          "model": "Random Forest",
+          "metrics": {
+            "MAE": 6.4991,
+            "RMSE": 14.666,
+            "R2": 0.9684
+          },
+          "artifact": "odisha_wind_power_rf.pkl"
+        },
+        "best_api": {
+          "model": "Random Forest",
+          "metrics": {
+            "MAE": 6.4991,
+            "RMSE": 14.666,
+            "R2": 0.9684
+          },
+          "artifact": "odisha_wind_power_rf.pkl",
+          "artifact_path": "/home/runner/work/Renewable_Energy_Forecasting/Renewable_Energy_Forecasting/models/odisha_wind_power_rf.pkl"
+        }
+      }
+    },
+    "maharashtra": {
+      "solar_power": {
+        "best_overall": {
+          "model": "XGBoost",
+          "metrics": {
+            "MAE": 2.3818,
+            "RMSE": 5.5722,
+            "R2": 0.9896
+          },
+          "artifact": "maharashtra_solar_power_xgb.pkl"
+        },
+        "best_api": {
+          "model": "XGBoost",
+          "metrics": {
+            "MAE": 2.3818,
+            "RMSE": 5.5722,
+            "R2": 0.9896
+          },
+          "artifact": "maharashtra_solar_power_xgb.pkl",
+          "artifact_path": "/home/runner/work/Renewable_Energy_Forecasting/Renewable_Energy_Forecasting/models/maharashtra_solar_power_xgb.pkl"
+        }
+      },
+      "wind_power": {
+        "best_overall": {
+          "model": "Random Forest",
+          "metrics": {
+            "MAE": 7.1375,
+            "RMSE": 16.1308,
+            "R2": 0.9598
+          },
+          "artifact": "maharashtra_wind_power_rf.pkl"
+        },
+        "best_api": {
+          "model": "Random Forest",
+          "metrics": {
+            "MAE": 7.1375,
+            "RMSE": 16.1308,
+            "R2": 0.9598
+          },
+          "artifact": "maharashtra_wind_power_rf.pkl",
+          "artifact_path": "/home/runner/work/Renewable_Energy_Forecasting/Renewable_Energy_Forecasting/models/maharashtra_wind_power_rf.pkl"
+        }
+      }
+    },
+    "himachal": {
+      "solar_power": {
+        "best_overall": {
+          "model": "XGBoost",
+          "metrics": {
+            "MAE": 2.4072,
+            "RMSE": 5.4092,
+            "R2": 0.9893
+          },
+          "artifact": "himachal_solar_power_xgb.pkl"
+        },
+        "best_api": {
+          "model": "XGBoost",
+          "metrics": {
+            "MAE": 2.4072,
+            "RMSE": 5.4092,
+            "R2": 0.9893
+          },
+          "artifact": "himachal_solar_power_xgb.pkl",
+          "artifact_path": "/home/runner/work/Renewable_Energy_Forecasting/Renewable_Energy_Forecasting/models/himachal_solar_power_xgb.pkl"
+        }
+      },
+      "wind_power": {
+        "best_overall": {
+          "model": "Random Forest",
+          "metrics": {
+            "MAE": 7.1127,
+            "RMSE": 27.8201,
+            "R2": 0.9105
+          },
+          "artifact": "himachal_wind_power_rf.pkl"
+        },
+        "best_api": {
+          "model": "Random Forest",
+          "metrics": {
+            "MAE": 7.1127,
+            "RMSE": 27.8201,
+            "R2": 0.9105
+          },
+          "artifact": "himachal_wind_power_rf.pkl",
+          "artifact_path": "/home/runner/work/Renewable_Energy_Forecasting/Renewable_Energy_Forecasting/models/himachal_wind_power_rf.pkl"
+        }
+      }
+    }
+  }
+}

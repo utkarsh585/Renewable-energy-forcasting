@@ -1,0 +1,49 @@
+name: Free Forecast Refresh
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 2 * * 0"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run full refresh (skip LSTM for free runner stability)
+        run: |
+          python refresh_pipeline.py --skip-lstm --prepare-deploy-bundle
+
+      - name: Commit updated artifacts
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add results/all_metrics.json
+          git add results/model_manifest.json
+          git add results/*_predictions.csv
+          git add deploy_streamlit_free
+
+          if git diff --cached --quiet; then
+            echo "No artifact changes."
+          else
+            git commit -m "chore: automated free forecast refresh"
+            git push
+          fi

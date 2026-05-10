@@ -1,0 +1,232 @@
+{
+  "rajasthan": {
+    "solar_power": {
+      "Linear Regression": {
+        "MAE": 4.0922,
+        "RMSE": 6.0943,
+        "R2": 0.9898
+      },
+      "Random Forest": {
+        "MAE": 1.8245,
+        "RMSE": 4.7248,
+        "R2": 0.9939
+      },
+      "XGBoost": {
+        "MAE": 1.8303,
+        "RMSE": 4.6267,
+        "R2": 0.9941
+      },
+      "LSTM": {
+        "MAE": 4.5897,
+        "RMSE": 8.8809,
+        "R2": 0.9783
+      }
+    },
+    "wind_power": {
+      "Linear Regression": {
+        "MAE": 59.1749,
+        "RMSE": 83.1204,
+        "R2": 0.7769
+      },
+      "Random Forest": {
+        "MAE": 13.317,
+        "RMSE": 30.2105,
+        "R2": 0.9705
+      },
+      "XGBoost": {
+        "MAE": 12.8785,
+        "RMSE": 29.5418,
+        "R2": 0.9718
+      },
+      "LSTM": {
+        "MAE": 28.3748,
+        "RMSE": 58.2476,
+        "R2": 0.8907
+      }
+    }
+  },
+  "tamil_nadu": {
+    "solar_power": {
+      "Linear Regression": {
+        "MAE": 4.7202,
+        "RMSE": 7.0531,
+        "R2": 0.9846
+      },
+      "Random Forest": {
+        "MAE": 2.7037,
+        "RMSE": 5.9913,
+        "R2": 0.9889
+      },
+      "XGBoost": {
+        "MAE": 2.7046,
+        "RMSE": 5.9,
+        "R2": 0.9892
+      },
+      "LSTM": {
+        "MAE": 4.6537,
+        "RMSE": 8.7719,
+        "R2": 0.9762
+      }
+    },
+    "wind_power": {
+      "Linear Regression": {
+        "MAE": 48.6075,
+        "RMSE": 69.3985,
+        "R2": 0.8198
+      },
+      "Random Forest": {
+        "MAE": 10.3861,
+        "RMSE": 21.0619,
+        "R2": 0.9834
+      },
+      "XGBoost": {
+        "MAE": 10.03,
+        "RMSE": 21.2593,
+        "R2": 0.9831
+      },
+      "LSTM": {
+        "MAE": 24.2029,
+        "RMSE": 39.9669,
+        "R2": 0.9403
+      }
+    }
+  },
+  "odisha": {
+    "solar_power": {
+      "Linear Regression": {
+        "MAE": 4.4828,
+        "RMSE": 6.8988,
+        "R2": 0.982
+      },
+      "Random Forest": {
+        "MAE": 2.7186,
+        "RMSE": 6.2198,
+        "R2": 0.9854
+      },
+      "XGBoost": {
+        "MAE": 2.729,
+        "RMSE": 6.1935,
+        "R2": 0.9855
+      },
+      "LSTM": {
+        "MAE": 4.8959,
+        "RMSE": 9.8125,
+        "R2": 0.9636
+      }
+    },
+    "wind_power": {
+      "Linear Regression": {
+        "MAE": 30.678,
+        "RMSE": 43.7339,
+        "R2": 0.7191
+      },
+      "Random Forest": {
+        "MAE": 6.4991,
+        "RMSE": 14.666,
+        "R2": 0.9684
+      },
+      "XGBoost": {
+        "MAE": 6.7666,
+        "RMSE": 28.1413,
+        "R2": 0.8837
+      },
+      "LSTM": {
+        "MAE": 12.883,
+        "RMSE": 28.3431,
+        "R2": 0.8823
+      }
+    }
+  },
+  "maharashtra": {
+    "solar_power": {
+      "Linear Regression": {
+        "MAE": 4.2846,
+        "RMSE": 6.4756,
+        "R2": 0.986
+      },
+      "Random Forest": {
+        "MAE": 2.3554,
+        "RMSE": 5.6407,
+        "R2": 0.9894
+      },
+      "XGBoost": {
+        "MAE": 2.3818,
+        "RMSE": 5.5722,
+        "R2": 0.9896
+      },
+      "LSTM": {
+        "MAE": 4.5942,
+        "RMSE": 9.0591,
+        "R2": 0.9726
+      }
+    },
+    "wind_power": {
+      "Linear Regression": {
+        "MAE": 26.8329,
+        "RMSE": 41.0612,
+        "R2": 0.7395
+      },
+      "Random Forest": {
+        "MAE": 7.1375,
+        "RMSE": 16.1308,
+        "R2": 0.9598
+      },
+      "XGBoost": {
+        "MAE": 7.0461,
+        "RMSE": 16.954,
+        "R2": 0.9556
+      },
+      "LSTM": {
+        "MAE": 17.2163,
+        "RMSE": 32.8849,
+        "R2": 0.8333
+      }
+    }
+  },
+  "himachal": {
+    "solar_power": {
+      "Linear Regression": {
+        "MAE": 4.7292,
+        "RMSE": 7.0527,
+        "R2": 0.9819
+      },
+      "Random Forest": {
+        "MAE": 2.3862,
+        "RMSE": 5.4674,
+        "R2": 0.9891
+      },
+      "XGBoost": {
+        "MAE": 2.4072,
+        "RMSE": 5.4092,
+        "R2": 0.9893
+      },
+      "LSTM": {
+        "MAE": 4.3038,
+        "RMSE": 8.5378,
+        "R2": 0.9735
+      }
+    },
+    "wind_power": {
+      "Linear Regression": {
+        "MAE": 22.4413,
+        "RMSE": 52.5664,
+        "R2": 0.6806
+      },
+      "Random Forest": {
+        "MAE": 7.1127,
+        "RMSE": 27.8201,
+        "R2": 0.9105
+      },
+      "XGBoost": {
+        "MAE": 7.6282,
+        "RMSE": 34.5195,
+        "R2": 0.8623
+      },
+      "LSTM": {
+        "MAE": 14.2773,
+        "RMSE": 46.588,
+        "R2": 0.7497
+      }
+    }
+  }
+}
