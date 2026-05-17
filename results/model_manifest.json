@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-04-26T05:29:46.756982+00:00",
+  "generated_at_utc": "2026-05-17T06:19:45.242257+00:00",
   "forecast_horizon_hours": 1,
   "selection_policy": {
     "primary_metric": "R2",
@@ -33,7 +33,7 @@
             "R2": 0.9941
           },
           "artifact": "rajasthan_solar_power_xgb.pkl",
-          "artifact_path": "/home/runner/work/Renewable_Energy_Forecasting/Renewable_Energy_Forecasting/models/rajasthan_solar_power_xgb.pkl"
+          "artifact_path": "/home/runner/work/Renewable-energy-forcasting/Renewable-energy-forcasting/models/rajasthan_solar_power_xgb.pkl"
         }
       },
       "wind_power": {
@@ -54,7 +54,7 @@
             "R2": 0.9718
           },
           "artifact": "rajasthan_wind_power_xgb.pkl",
-          "artifact_path": "/home/runner/work/Renewable_Energy_Forecasting/Renewable_Energy_Forecasting/models/rajasthan_wind_power_xgb.pkl"
+          "artifact_path": "/home/runner/work/Renewable-energy-forcasting/Renewable-energy-forcasting/models/rajasthan_wind_power_xgb.pkl"
         }
       }
     },
@@ -77,7 +77,7 @@
             "R2": 0.9892
           },
           "artifact": "tamil_nadu_solar_power_xgb.pkl",
-          "artifact_path": "/home/runner/work/Renewable_Energy_Forecasting/Renewable_Energy_Forecasting/models/tamil_nadu_solar_power_xgb.pkl"
+          "artifact_path": "/home/runner/work/Renewable-energy-forcasting/Renewable-energy-forcasting/models/tamil_nadu_solar_power_xgb.pkl"
         }
       },
       "wind_power": {
@@ -98,7 +98,7 @@
             "R2": 0.9834
           },
           "artifact": "tamil_nadu_wind_power_rf.pkl",
-          "artifact_path": "/home/runner/work/Renewable_Energy_Forecasting/Renewable_Energy_Forecasting/models/tamil_nadu_wind_power_rf.pkl"
+          "artifact_path": "/home/runner/work/Renewable-energy-forcasting/Renewable-energy-forcasting/models/tamil_nadu_wind_power_rf.pkl"
         }
       }
     },
@@ -121,7 +121,7 @@
             "R2": 0.9855
           },
           "artifact": "odisha_solar_power_xgb.pkl",
-          "artifact_path": "/home/runner/work/Renewable_Energy_Forecasting/Renewable_Energy_Forecasting/models/odisha_solar_power_xgb.pkl"
+          "artifact_path": "/home/runner/work/Renewable-energy-forcasting/Renewable-energy-forcasting/models/odisha_solar_power_xgb.pkl"
         }
       },
       "wind_power": {
@@ -142,7 +142,7 @@
             "R2": 0.9684
           },
           "artifact": "odisha_wind_power_rf.pkl",
-          "artifact_path": "/home/runner/work/Renewable_Energy_Forecasting/Renewable_Energy_Forecasting/models/odisha_wind_power_rf.pkl"
+          "artifact_path": "/home/runner/work/Renewable-energy-forcasting/Renewable-energy-forcasting/models/odisha_wind_power_rf.pkl"
         }
       }
     },
@@ -165,7 +165,7 @@
             "R2": 0.9896
           },
           "artifact": "maharashtra_solar_power_xgb.pkl",
-          "artifact_path": "/home/runner/work/Renewable_Energy_Forecasting/Renewable_Energy_Forecasting/models/maharashtra_solar_power_xgb.pkl"
+          "artifact_path": "/home/runner/work/Renewable-energy-forcasting/Renewable-energy-forcasting/models/maharashtra_solar_power_xgb.pkl"
         }
       },
       "wind_power": {
@@ -186,7 +186,7 @@
             "R2": 0.9598
           },
           "artifact": "maharashtra_wind_power_rf.pkl",
-          "artifact_path": "/home/runner/work/Renewable_Energy_Forecasting/Renewable_Energy_Forecasting/models/maharashtra_wind_power_rf.pkl"
+          "artifact_path": "/home/runner/work/Renewable-energy-forcasting/Renewable-energy-forcasting/models/maharashtra_wind_power_rf.pkl"
         }
       }
     },
@@ -209,7 +209,7 @@
             "R2": 0.9893
           },
           "artifact": "himachal_solar_power_xgb.pkl",
-          "artifact_path": "/home/runner/work/Renewable_Energy_Forecasting/Renewable_Energy_Forecasting/models/himachal_solar_power_xgb.pkl"
+          "artifact_path": "/home/runner/work/Renewable-energy-forcasting/Renewable-energy-forcasting/models/himachal_solar_power_xgb.pkl"
         }
       },
       "wind_power": {
@@ -230,7 +230,7 @@
             "R2": 0.9105
           },
           "artifact": "himachal_wind_power_rf.pkl",
-          "artifact_path": "/home/runner/work/Renewable_Energy_Forecasting/Renewable_Energy_Forecasting/models/himachal_wind_power_rf.pkl"
+          "artifact_path": "/home/runner/work/Renewable-energy-forcasting/Renewable-energy-forcasting/models/himachal_wind_power_rf.pkl"
         }
       }
     }
