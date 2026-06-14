@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-07T06:54:33.461994+00:00",
+  "generated_at_utc": "2026-06-14T07:09:12.433330+00:00",
   "forecast_horizon_hours": 1,
   "selection_policy": {
     "primary_metric": "R2",
