@@ -12,17 +12,17 @@
       "solar_power": {
         "model": "XGBoost",
         "metrics": {
-          "MAE": 1.8354,
-          "RMSE": 4.6067,
-          "R2": 0.9942
+          "MAE": 1.832,
+          "RMSE": 4.6189,
+          "R2": 0.9941
         }
       },
       "wind_power": {
         "model": "XGBoost",
         "metrics": {
-          "MAE": 12.8136,
-          "RMSE": 29.2398,
-          "R2": 0.9724
+          "MAE": 12.8167,
+          "RMSE": 29.124,
+          "R2": 0.9726
         }
       }
     },
@@ -30,8 +30,8 @@
       "solar_power": {
         "model": "XGBoost",
         "metrics": {
-          "MAE": 2.7357,
-          "RMSE": 5.9262,
+          "MAE": 2.7384,
+          "RMSE": 5.9228,
           "R2": 0.9891
         }
       },
@@ -66,9 +66,9 @@
       "solar_power": {
         "model": "XGBoost",
         "metrics": {
-          "MAE": 2.3884,
-          "RMSE": 5.6182,
-          "R2": 0.9894
+          "MAE": 2.3852,
+          "RMSE": 5.5878,
+          "R2": 0.9895
         }
       },
       "wind_power": {
@@ -84,9 +84,9 @@
       "solar_power": {
         "model": "XGBoost",
         "metrics": {
-          "MAE": 2.4101,
-          "RMSE": 5.4162,
-          "R2": 0.9893
+          "MAE": 2.43,
+          "RMSE": 5.4431,
+          "R2": 0.9892
         }
       },
       "wind_power": {
