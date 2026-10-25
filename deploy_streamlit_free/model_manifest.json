@@ -38,27 +38,27 @@
       "wind_power": {
         "model": "Random Forest",
         "metrics": {
-          "MAE": 10.3794,
-          "RMSE": 21.1438,
-          "R2": 0.9833
+          "MAE": 10.3803,
+          "RMSE": 21.0893,
+          "R2": 0.9834
         }
       }
     },
     "odisha": {
       "solar_power": {
-        "model": "XGBoost",
+        "model": "Random Forest",
         "metrics": {
-          "MAE": 2.7454,
-          "RMSE": 6.2095,
+          "MAE": 2.72,
+          "RMSE": 6.2261,
           "R2": 0.9854
         }
       },
       "wind_power": {
         "model": "Random Forest",
         "metrics": {
-          "MAE": 6.5015,
-          "RMSE": 14.6756,
-          "R2": 0.9684
+          "MAE": 6.4913,
+          "RMSE": 14.647,
+          "R2": 0.9685
         }
       }
     },
@@ -74,9 +74,9 @@
       "wind_power": {
         "model": "Random Forest",
         "metrics": {
-          "MAE": 7.1363,
-          "RMSE": 16.1817,
-          "R2": 0.9595
+          "MAE": 7.1269,
+          "RMSE": 16.1504,
+          "R2": 0.9597
         }
       }
     },
@@ -92,9 +92,9 @@
       "wind_power": {
         "model": "Random Forest",
         "metrics": {
-          "MAE": 7.0944,
-          "RMSE": 27.6702,
-          "R2": 0.9115
+          "MAE": 7.134,
+          "RMSE": 27.8754,
+          "R2": 0.9102
         }
       }
     }
