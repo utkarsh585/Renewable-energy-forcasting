@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-08T09:03:05.432423+00:00",
+  "generated_at_utc": "2026-11-15T09:01:20.018592+00:00",
   "forecast_horizon_hours": 1,
   "selection_policy": {
     "primary_metric": "R2",
@@ -84,18 +84,18 @@
         "best_overall": {
           "model": "Random Forest",
           "metrics": {
-            "MAE": 10.3803,
-            "RMSE": 21.0893,
-            "R2": 0.9834
+            "MAE": 10.3999,
+            "RMSE": 21.1614,
+            "R2": 0.9832
           },
           "artifact": "tamil_nadu_wind_power_rf.pkl"
         },
         "best_api": {
           "model": "Random Forest",
           "metrics": {
-            "MAE": 10.3803,
-            "RMSE": 21.0893,
-            "R2": 0.9834
+            "MAE": 10.3999,
+            "RMSE": 21.1614,
+            "R2": 0.9832
           },
           "artifact": "tamil_nadu_wind_power_rf.pkl",
           "artifact_path": "/home/runner/work/Renewable-energy-forcasting/Renewable-energy-forcasting/models/tamil_nadu_wind_power_rf.pkl"
@@ -128,8 +128,8 @@
         "best_overall": {
           "model": "Random Forest",
           "metrics": {
-            "MAE": 6.4913,
-            "RMSE": 14.647,
+            "MAE": 6.5017,
+            "RMSE": 14.6563,
             "R2": 0.9685
           },
           "artifact": "odisha_wind_power_rf.pkl"
@@ -137,8 +137,8 @@
         "best_api": {
           "model": "Random Forest",
           "metrics": {
-            "MAE": 6.4913,
-            "RMSE": 14.647,
+            "MAE": 6.5017,
+            "RMSE": 14.6563,
             "R2": 0.9685
           },
           "artifact": "odisha_wind_power_rf.pkl",
@@ -172,18 +172,18 @@
         "best_overall": {
           "model": "Random Forest",
           "metrics": {
-            "MAE": 7.1269,
-            "RMSE": 16.1504,
-            "R2": 0.9597
+            "MAE": 7.1264,
+            "RMSE": 16.1358,
+            "R2": 0.9598
           },
           "artifact": "maharashtra_wind_power_rf.pkl"
         },
         "best_api": {
           "model": "Random Forest",
           "metrics": {
-            "MAE": 7.1269,
-            "RMSE": 16.1504,
-            "R2": 0.9597
+            "MAE": 7.1264,
+            "RMSE": 16.1358,
+            "R2": 0.9598
           },
           "artifact": "maharashtra_wind_power_rf.pkl",
           "artifact_path": "/home/runner/work/Renewable-energy-forcasting/Renewable-energy-forcasting/models/maharashtra_wind_power_rf.pkl"
@@ -216,18 +216,18 @@
         "best_overall": {
           "model": "Random Forest",
           "metrics": {
-            "MAE": 7.134,
-            "RMSE": 27.8754,
-            "R2": 0.9102
+            "MAE": 7.1283,
+            "RMSE": 27.9875,
+            "R2": 0.9095
           },
           "artifact": "himachal_wind_power_rf.pkl"
         },
         "best_api": {
           "model": "Random Forest",
           "metrics": {
-            "MAE": 7.134,
-            "RMSE": 27.8754,
-            "R2": 0.9102
+            "MAE": 7.1283,
+            "RMSE": 27.9875,
+            "R2": 0.9095
           },
           "artifact": "himachal_wind_power_rf.pkl",
           "artifact_path": "/home/runner/work/Renewable-energy-forcasting/Renewable-energy-forcasting/models/himachal_wind_power_rf.pkl"
